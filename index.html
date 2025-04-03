@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para dispositivos móveis -->
+    <title>Portfólio Pessoal</title> <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilos CSS -->
+</head>
+<body>
+    <header> <!-- Cabeçalho do site -->
+        <h1>Emanoel Aquino</h1> <!-- Nome do aluno -->
+        <p>Desenvolvedor Web</p> <!-- Breve descrição -->
+    </header>
+    <section id="sobre-mim"> <!-- Seção Sobre Mim -->
+        <h2>Sobre Mim</h2> <!-- Título da seção -->
+        <p>Estudante de Análise e Desenvolvimento de Sistemas, hoje atuo como Inside Sales Manager em uma das maiores empresas do mundo. Estou focado em aumentar meu conhecimento afim de ganhar mais musculatura profissional e com isso alavancar ainda mais minha carreira.</p> <!-- Descrição sobre o aluno -->
+    </section>
+    <section id="projetos"> <!-- Seção Projetos -->
+        <h2>Projetos</h2> <!-- Título da seção -->
+        <div class="projeto"> <!-- Div para cada projeto -->
+            <h3>Mountrain Shooter</h3> <!-- Nome do projeto -->
+            <p>Mountain Shooter is a 2D arcade game developed with Pygame. The game has 2 levels and each level ends with a timeout event. Can be played coop (2 players). Score is saved in database (SQLite3).</p> <!-- Descrição do projeto -->
+            <a href="https://github.com/Emanoel003/Mountrain_Shooter" target="_blank">Link para o projeto</a> <!-- Link para o projeto -->
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+    <section id="contato"> <!-- Seção Contato -->
+        <h2>Contato</h2> <!-- Título da seção -->
+        <form id="form-contato"> <!-- Formulário de contato -->
+            <label for="nome">Nome:</label> <!-- Rótulo para o campo Nome -->
+            <input type="text" id="nome" name="nome" required value="Emanoel Aquino"> <!-- Campo de entrada para Nome -->
+            <label for="telefone">Telefone:</label> <!-- Rótulo para o campo Telefone -->
+            <input type="tel" id="telefone" name="telefone" required value="5199999-9999"> <!-- Campo de entrada para Telefone -->
+            <label for="email">E-mail:</label> <!-- Rótulo para o campo E-mail -->
+            <input type="email" id="email" name="email" required value="emanoel.aquino@gmail.com"> <!-- Campo de entrada para E-mail -->
+            <label for="mensagem">Mensagem:</label> <!-- Rótulo para o campo Mensagem -->
+            <textarea id="mensagem" name="mensagem" required>Inside Sales</textarea> <!-- Área de texto para Mensagem -->
+            <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+        </form>
+    </section>
+    <footer> <!-- Rodapé do site -->
+        <p>&copy; 2025 Emanoel Aquino</p> <!-- Copyright -->
+    </footer>
+    <script src="scripts.js"></script> <!-- Link para o arquivo de scripts JavaScript -->
+</body>
+</html>
+
