@@ -1,6 +1,6 @@
 /* Estilos gerais para o corpo da página */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    font-family: 'Roboto', sans-serif; /* Define uma fonte elegante e atual */
     margin: 0; /* Remove margens padrão */
     padding: 0; /* Remove preenchimento padrão */
     box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
@@ -136,13 +136,6 @@ footer {
         padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
     }
 }
-Agora, todos os textos e campos estarão centralizados dentro do bloco. Se precisar de mais alguma coisa, estou aqui para ajudar!
-
-
-
-
-
-AI-generated content may be incorrect
 
 
 
