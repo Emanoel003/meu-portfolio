@@ -82,6 +82,7 @@ input, textarea {
     border: 1px solid #003049; /* Define a borda dos campos */
     width: 100%; /* Define a largura dos campos */
     max-width: 400px; /* Define a largura máxima dos campos */
+    text-align: center; /* Centraliza o texto dos campos */
 }
 
 /* Estilos para o botão de envio do formulário */
