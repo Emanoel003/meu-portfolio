@@ -105,3 +105,30 @@ footer {
     padding: 1em 0; /* Adiciona preenchimento vertical */
     width: 100%; /* Define a largura do rodapé */
 }
+
+/* Estilos para a imagem de perfil */
+.foto-perfil {
+    display: block; /* Exibe a imagem como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 200px; /* Define a largura máxima da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 2px solid #003049; /* Adiciona uma borda à imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
+    transition: transform 0.3s ease-in-out; /* Adiciona transição para o efeito de flutuação */
+}
+
+/* Efeito de flutuação na imagem */
+.foto-perfil:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    section {
+        padding: 1em; /* Reduz o preenchimento em telas menores */
+    }
+
+    form {
+        padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
+    }
+}
