@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    padding: 1em 0; /* Adiciona preenchimento vertical */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 2em; /* Adiciona preenchimento em todas as direções */
+}
+
+/* Estilos específicos para as seções Sobre Mim, Projetos e Contato */
+#sobre-mim, #projetos, #contato {
+    margin: 2em 0; /* Adiciona margem vertical */
+}
+
+/* Estilos para cada projeto na seção Projetos */
+.projeto {
+    border: 1px solid #ccc; /* Define a borda dos projetos */
+    padding: 1em; /* Adiciona preenchimento em todas as direções */
+    margin-bottom: 1em; /* Adiciona margem inferior */
+}
+
+/* Estilos para o formulário de contato */
+form {
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Alinha os elementos em coluna */
+}
+
+/* Estilos para os rótulos do formulário */
+label {
+    margin-bottom: 0.5em; /* Adiciona margem inferior */
+}
+
+/* Estilos para os campos de entrada e área de texto do formulário */
+input, textarea {
+    margin-bottom: 1em; /* Adiciona margem inferior */
+    padding: 0.5em; /* Adiciona preenchimento em todas as direções */
+    border: 1px solid #ccc; /* Define a borda dos campos */
+}
+
+/* Estilos para o botão de envio do formulário */
+button {
+    background-color: #333; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    padding: 0.5em; /* Adiciona preenchimento em todas as direções */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Define o cursor como ponteiro */
+}
+
+/* Estilos para o botão de envio quando o mouse passa por cima */
+button:hover {
+    background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 1em 0; /* Adiciona preenchimento vertical */
+}
