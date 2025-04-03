@@ -6,10 +6,6 @@ body {
     box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
     background-color: #fdf0d5; /* Define a cor de fundo da página */
     text-align: center; /* Centraliza os textos */
-    display: flex; /* Define o layout flexível */
-    justify-content: center; /* Centraliza os elementos horizontalmente */
-    align-items: center; /* Centraliza os elementos verticalmente */
-    height: 100vh; /* Define a altura da página */
 }
 
 /* Estilos para o cabeçalho */
@@ -18,7 +14,14 @@ header {
     color: #fff; /* Define a cor do texto do cabeçalho */
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
-    width: 100%; /* Define a largura do cabeçalho */
+}
+
+/* Estilos para o contêiner principal */
+main {
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: center; /* Centraliza os elementos */
+    padding: 2em; /* Adiciona preenchimento */
 }
 
 /* Estilos para as seções */
