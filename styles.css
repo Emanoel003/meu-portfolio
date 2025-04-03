@@ -21,6 +21,8 @@ header {
 /* Estilos para as seções */
 section {
     padding: 2em; /* Adiciona preenchimento em todas as direções */
+    max-width: 800px; /* Define a largura máxima das seções */
+    margin: 0 auto; /* Centraliza as seções horizontalmente */
 }
 
 /* Estilos específicos para as seções Sobre Mim, Projetos e Contato */
@@ -39,9 +41,7 @@ section {
 form {
     display: flex; /* Define o layout flexível */
     flex-direction: column; /* Alinha os elementos em coluna */
-    position: absolute; /* Posiciona o formulário */
-    bottom: 0; /* Alinha o formulário na parte inferior */
-    left: 0; /* Alinha o formulário na parte esquerda */
+    align-items: flex-start; /* Alinha os elementos à esquerda */
     padding: 2em; /* Adiciona preenchimento */
 }
 
@@ -56,6 +56,7 @@ input, textarea {
     margin-bottom: 1em; /* Adiciona margem inferior */
     padding: 0.5em; /* Adiciona preenchimento em todas as direções */
     border: 1px solid #003049; /* Define a borda dos campos */
+    width: 100%; /* Define a largura dos campos */
 }
 
 /* Estilos para o botão de envio do formulário */
@@ -87,4 +88,15 @@ footer {
     max-width: 200px; /* Define a largura máxima da imagem */
     border-radius: 50%; /* Torna a imagem circular */
     border: 2px solid #003049; /* Adiciona uma borda à imagem */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    section {
+        padding: 1em; /* Reduz o preenchimento em telas menores */
+    }
+
+    form {
+        padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
+    }
 }
