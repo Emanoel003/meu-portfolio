@@ -63,6 +63,7 @@ form {
     flex-direction: column; /* Alinha os elementos em coluna */
     align-items: center; /* Centraliza os elementos */
     padding: 2em; /* Adiciona preenchimento */
+    width: 100%; /* Define a largura do formulário */
 }
 
 /* Estilos para os rótulos do formulário */
@@ -102,3 +103,4 @@ footer {
     padding: 1em 0; /* Adiciona preenchimento vertical */
     width: 100%; /* Define a largura do rodapé */
 }
+
