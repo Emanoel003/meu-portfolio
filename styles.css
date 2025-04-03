@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Estilos gerais para o corpo da página */
 body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
@@ -26,6 +24,12 @@ section {
     background-color: #fff; /* Define a cor de fundo das seções */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
     border-radius: 8px; /* Adiciona bordas arredondadas às seções */
+    transition: transform 0.3s ease-in-out; /* Adiciona transição para o efeito de flutuação */
+}
+
+/* Efeito de flutuação */
+section:hover {
+    transform: translateY(-10px); /* Move o bloco para cima ao passar o mouse */
 }
 
 /* Estilos específicos para as seções Sobre Mim, Projetos e Contato */
