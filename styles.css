@@ -6,6 +6,10 @@ body {
     box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
     background-color: #fdf0d5; /* Define a cor de fundo da página */
     text-align: center; /* Centraliza os textos */
+    display: flex; /* Define o layout flexível */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    height: 100vh; /* Define a altura da página */
 }
 
 /* Estilos para o cabeçalho */
@@ -14,6 +18,7 @@ header {
     color: #fff; /* Define a cor do texto do cabeçalho */
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
+    width: 100%; /* Define a largura do cabeçalho */
 }
 
 /* Estilos para as seções */
@@ -21,7 +26,7 @@ section {
     padding: 2em; /* Adiciona preenchimento em todas as direções */
     max-width: 800px; /* Define a largura máxima das seções */
     margin: 2em auto; /* Centraliza as seções horizontalmente e adiciona margem vertical */
-    background-color: #fff; /* Define a cor de fundo das seções */
+    background-color: #669bbc; /* Define a cor de fundo das seções */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
     border-radius: 8px; /* Adiciona bordas arredondadas às seções */
     transition: transform 0.3s ease-in-out; /* Adiciona transição para o efeito de flutuação */
@@ -87,6 +92,7 @@ footer {
     color: #fff; /* Define a cor do texto do rodapé */
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
+    width: 100%; /* Define a largura do rodapé */
 }
 
 /* Estilos para a imagem de perfil */
