@@ -1,3 +1,8 @@
+Vamos ajustar o CSS para garantir que os campos do formulário estejam centralizados dentro do bloco.
+
+### Atualização do `styles.css`
+
+```css
 /* Estilos gerais para o corpo da página */
 body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
@@ -72,6 +77,7 @@ form {
 label {
     margin-bottom: 0.5em; /* Adiciona margem inferior */
     color: #003049; /* Define a cor do texto dos rótulos */
+    text-align: center; /* Centraliza o texto dos rótulos */
 }
 
 /* Estilos para os campos de entrada e área de texto do formulário */
@@ -81,6 +87,7 @@ input, textarea {
     border: 1px solid #003049; /* Define a borda dos campos */
     width: 100%; /* Define a largura dos campos */
     max-width: 400px; /* Define a largura máxima dos campos */
+    text-align: center; /* Centraliza o texto dos campos */
 }
 
 /* Estilos para o botão de envio do formulário */
@@ -132,3 +139,6 @@ footer {
         padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
     }
 }
+```
+
+Agora, os campos do formulário estarão centralizados dentro do bloco. Se precisar de mais alguma coisa, estou aqui para ajudar!
