@@ -6,6 +6,9 @@ body {
     box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
     background-color: #fdf0d5; /* Define a cor de fundo da página */
     text-align: center; /* Centraliza os textos */
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    min-height: 100vh; /* Define a altura mínima da página */
 }
 
 /* Estilos para o cabeçalho */
@@ -15,8 +18,6 @@ header {
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
     width: 100%; /* Define a largura do cabeçalho */
-    position: fixed; /* Fixa o cabeçalho no topo */
-    top: 0; /* Define a posição do cabeçalho no topo */
 }
 
 /* Estilos para o contêiner principal */
@@ -25,7 +26,7 @@ main {
     flex-direction: column; /* Alinha os elementos em coluna */
     align-items: center; /* Centraliza os elementos */
     padding: 2em; /* Adiciona preenchimento */
-    margin-top: 5em; /* Adiciona margem superior para evitar sobreposição com o cabeçalho */
+    flex: 1; /* Faz com que o contêiner principal ocupe o espaço disponível */
 }
 
 /* Estilos para as seções */
@@ -100,26 +101,4 @@ footer {
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
     width: 100%; /* Define a largura do rodapé */
-    position: fixed; /* Fixa o rodapé na parte inferior */
-    bottom: 0; /* Define a posição do rodapé na parte inferior */
-}
-
-/* Estilos para a imagem de perfil */
-.foto-perfil {
-    display: block; /* Exibe a imagem como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    max-width: 200px; /* Define a largura máxima da imagem */
-    border-radius: 50%; /* Torna a imagem circular */
-    border: 2px solid #003049; /* Adiciona uma borda à imagem */
-}
-
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    section {
-        padding: 1em; /* Reduz o preenchimento em telas menores */
-    }
-
-    form {
-        padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
-    }
 }
