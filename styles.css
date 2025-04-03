@@ -14,6 +14,9 @@ header {
     color: #fff; /* Define a cor do texto do cabeçalho */
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
+    width: 100%; /* Define a largura do cabeçalho */
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0; /* Define a posição do cabeçalho no topo */
 }
 
 /* Estilos para o contêiner principal */
@@ -22,6 +25,7 @@ main {
     flex-direction: column; /* Alinha os elementos em coluna */
     align-items: center; /* Centraliza os elementos */
     padding: 2em; /* Adiciona preenchimento */
+    margin-top: 5em; /* Adiciona margem superior para evitar sobreposição com o cabeçalho */
 }
 
 /* Estilos para as seções */
@@ -96,6 +100,8 @@ footer {
     text-align: center; /* Centraliza o texto */
     padding: 1em 0; /* Adiciona preenchimento vertical */
     width: 100%; /* Define a largura do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Define a posição do rodapé na parte inferior */
 }
 
 /* Estilos para a imagem de perfil */
