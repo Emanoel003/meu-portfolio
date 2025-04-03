@@ -32,3 +32,12 @@ function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email); // Retorna verdadeiro se o e-mail for válido
 }
+// Adiciona um evento de submissão ao formulário de contato
+document.getElementById('form-contato').addEventListener('submit', function(event) {
+    // Previne o envio padrão do formulário
+    event.preventDefault();
+    
+    // Obtém os valores dos campos do formulário
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
