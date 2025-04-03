@@ -39,6 +39,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
     border-radius: 8px; /* Adiciona bordas arredondadas às seções */
     transition: transform 0.3s ease-in-out; /* Adiciona transição para o efeito de flutuação */
+    text-align: center; /* Centraliza o texto dentro das seções */
 }
 
 /* Efeito de flutuação */
@@ -56,6 +57,7 @@ section:hover {
     border: 1px solid #003049; /* Define a borda dos projetos */
     padding: 1em; /* Adiciona preenchimento em todas as direções */
     margin-bottom: 1em; /* Adiciona margem inferior */
+    text-align: center; /* Centraliza o texto dentro dos projetos */
 }
 
 /* Estilos para o formulário de contato */
@@ -134,5 +136,13 @@ footer {
         padding: 1em; /* Reduz o preenchimento do formulário em telas menores */
     }
 }
+Agora, todos os textos e campos estarão centralizados dentro do bloco. Se precisar de mais alguma coisa, estou aqui para ajudar!
+
+
+
+
+
+AI-generated content may be incorrect
+
 
 
