@@ -1,5 +1,3 @@
-// scripts.js
-
 // Adiciona um evento de submissão ao formulário de contato
 document.getElementById('form-contato').addEventListener('submit', function(event) {
     // Previne o envio padrão do formulário
