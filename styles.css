@@ -41,7 +41,7 @@ section {
 form {
     display: flex; /* Define o layout flexível */
     flex-direction: column; /* Alinha os elementos em coluna */
-    align-items: flex-start; /* Alinha os elementos à esquerda */
+    align-items: center; /* Centraliza os elementos */
     padding: 2em; /* Adiciona preenchimento */
 }
 
@@ -57,6 +57,7 @@ input, textarea {
     padding: 0.5em; /* Adiciona preenchimento em todas as direções */
     border: 1px solid #003049; /* Define a borda dos campos */
     width: 100%; /* Define a largura dos campos */
+    max-width: 400px; /* Define a largura máxima dos campos */
 }
 
 /* Estilos para o botão de envio do formulário */
