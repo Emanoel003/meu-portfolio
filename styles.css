@@ -22,7 +22,10 @@ header {
 section {
     padding: 2em; /* Adiciona preenchimento em todas as direções */
     max-width: 800px; /* Define a largura máxima das seções */
-    margin: 0 auto; /* Centraliza as seções horizontalmente */
+    margin: 2em auto; /* Centraliza as seções horizontalmente e adiciona margem vertical */
+    background-color: #fff; /* Define a cor de fundo das seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
+    border-radius: 8px; /* Adiciona bordas arredondadas às seções */
 }
 
 /* Estilos específicos para as seções Sobre Mim, Projetos e Contato */
