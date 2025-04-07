@@ -75,8 +75,8 @@ label {
     margin-bottom: 0.5em;
     color: #003049;
     width: 100%;
-    max-width: 400px;
-    text-align: middle;
+    max-width: 800px;
+    text-align: center;
 }
 
 /* Estilos para os campos de entrada e área de texto do formulário */
