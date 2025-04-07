@@ -72,10 +72,11 @@ form {
 
 /* Estilos para os rótulos do formulário */
 label {
+    display: flex;
     margin-bottom: 0.5em;
     color: #003049;
     width: 100%;
-    max-width: 800px;
+    max-width: 400px;
     text-align: center;
 }
 
