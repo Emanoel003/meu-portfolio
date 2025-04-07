@@ -72,9 +72,11 @@ form {
 
 /* Estilos para os rótulos do formulário */
 label {
-    margin-bottom: 0.5em; /* Adiciona margem inferior */
-    color: #003049; /* Define a cor do texto dos rótulos */
-    text-align: center; /* Centraliza o texto dos rótulos */
+    margin-bottom: 0.5em;
+    color: #003049;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
 }
 
 /* Estilos para os campos de entrada e área de texto do formulário */
