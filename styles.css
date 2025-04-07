@@ -70,14 +70,14 @@ form {
     max-width: 800px; /* Define a largura máxima do formulário */
 }
 
-/* Estilos para os rótulos do formulário */
-label {
+/* Estilos para o formulário de contato */
+form-contato {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
     display: flex;
-    margin-bottom: 0.5em;
-    color: #003049;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+    flex-direction: column;
+    gap: 12px; /* Espaçamento entre os campos */
+    padding: 20px;
 }
 
 /* Estilos para os campos de entrada e área de texto do formulário */
