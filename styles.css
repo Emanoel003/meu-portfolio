@@ -60,6 +60,15 @@ section:hover {
     text-align: center; /* Centraliza o texto dentro dos projetos */
 }
 
+#form-contato {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Espaçamento entre os campos */
+    padding: 20px;
+}
+
 /* Estilos para o formulário de contato */
 form {
     display: flex; /* Define o layout flexível */
@@ -68,16 +77,6 @@ form {
     padding: 2em; /* Adiciona preenchimento */
     width: 100%; /* Define a largura do formulário */
     max-width: 800px; /* Define a largura máxima do formulário */
-}
-
-/* Estilos para o formulário de contato */
-form-contato {
-    max-width: 600px;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: flex;
-    flex-direction: column;
-    gap: 12px; /* Espaçamento entre os campos */
-    padding: 20px;
 }
 
 /* Estilos para os campos de entrada e área de texto do formulário */
